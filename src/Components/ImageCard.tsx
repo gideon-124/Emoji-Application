@@ -9,12 +9,14 @@ const ImageCard = ({img,text}:CardProps) => {
         box:{
             cursor:"pointer", 
             boxSizing:"border-box", 
-            width:"150px"
+            width:"260px" 
+            
         }, 
         img:{
             boxSizing:"border-box", 
             background:"#ddd", 
-            width:"150px"
+            width:"260px" 
+           
         },
         text:{
             background:"#fff",

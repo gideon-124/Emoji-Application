@@ -33,7 +33,7 @@ const Main = () => {
   const [image, setImage] = useState(null);
   const [search, setSearch] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
-  const [postsPerPage] = useState(15); 
+  const [postsPerPage] = useState(10); 
   const [totalPages, setTotalPages] = useState()
 
   let url = "https://api.github.com/emojis";
